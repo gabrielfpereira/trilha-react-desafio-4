@@ -1,46 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Implementando Uma Tela de Login Com Validação Usando TypeScript
 
-## Available Scripts
+Chegou a hora de deixar os seus projetos com React cada vez mais poderosos e profissionais! Neste Desafio, você irá criar uma tela de login usando TypeScript e irá implementar uma etapa de autenticação e validação dentro do React. Neste desafio você irá aplicar todos os conceitos aprendidos durante o módulo sobre TypeScript.
 
-In the project directory, you can run:
+## O que foi feito?
+- Na interface do IButtonProps foi extendido interfaces padrão do React para adiconar comportamento padrão ao botão
+- Foi adicionado estilização ao botão quando o mesmo estiver desabilitado
+- O usuário recebe uma mensagem quando o formulário for preenchido corretamente
+## Rodando localmente
 
-### `npm start`
+Clone o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+  git clone https://github.com/gabrielfpereira/trilha-react-desafio-4
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Entre no diretório do projeto
 
-### `npm test`
+```bash
+  cd trilha-react-desafio-4
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instale as dependências
 
-### `npm run build`
+```bash
+  npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inicie o servidor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm run start
+```
+Abra o navegador em ``http://localhost:3000``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Veja funcionando
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[https://trilha-react-desafio-4.vercel.app/](https://trilha-react-desafio-4.vercel.app/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
